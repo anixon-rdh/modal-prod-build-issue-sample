@@ -1,4 +1,5 @@
 using BlazorApp1.Data;
+using Blazored.Modal;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddBlazoredModal();
 builder.Services.AddSingleton<WeatherForecastService>();
 
 var app = builder.Build();
