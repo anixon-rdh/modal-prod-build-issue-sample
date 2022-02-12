@@ -3,3 +3,9 @@
 ################################################################################
 
 /BlazorApp1/BlazorApp1/bin/Debug/net6.0
+*.suo
+/.vs/ModalProdBuildIssueSample/project-colors.json
+*.sqlite
+/.vs/VSWorkspaceState.json
+/BlazorApp1/BlazorApp1/obj/Debug/net6.0
+/BlazorApp1/BlazorApp1/obj
